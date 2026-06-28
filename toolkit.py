@@ -58,5 +58,11 @@ def summarize(items):
     print(total_sum)
     print(smallest)
     print(largest)
-
 summarize(items=[4,9,2,10,3])
+
+#part 2
+#mission 1
+def shoe_all(*args):
+    for arg in args:
+        print(arg)
+shoe_all("radio","map","flashlight")
