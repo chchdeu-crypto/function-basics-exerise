@@ -80,3 +80,9 @@ power(exponent=4,base=2)
 def repeat(text,times):
     print(text*times)
 repeat("chaim",3)
+#mission 5
+def flatten_and_print(nested):
+    for num in nested:
+        for num in num:
+            print(num)  
+flatten_and_print(nested=[[9,2],[3,4],[5]])
