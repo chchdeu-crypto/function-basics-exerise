@@ -16,3 +16,7 @@ def greet_with_titel(name,titel="agent"):
     print("hello",titel,name)
 greet_with_titel(name="chaim")
 greet_with_titel(name="chaim",titel="commander")
+#mission 5
+def agent_detalis(active,name,level):
+    print("name: ", name , "level: " ,level , "active: ", active)
+agent_detalis(level=5,name="agent x",active=True )    
