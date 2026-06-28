@@ -70,4 +70,9 @@ shoe_all("radio","map","flashlight")
 def show_profile(**kwargs):
     print(kwargs)
 show_profile(name="agent x",level=7,active=True)
-
+#mission 3
+def power(base,exponent=2):
+    print(base**exponent)
+power(3)
+power(3,3)
+power(exponent=4,base=2)
