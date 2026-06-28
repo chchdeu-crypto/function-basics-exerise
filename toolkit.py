@@ -11,3 +11,8 @@ def square(n):
     print(n**2)
 square(5)
 square(12)
+#mission 4
+def greet_with_titel(name,titel="agent"):
+    print("hello",titel,name)
+greet_with_titel(name="chaim")
+greet_with_titel(name="chaim",titel="commander")
