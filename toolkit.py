@@ -36,3 +36,9 @@ def print_largest(a,b,c):
 print_largest(3,8,5)
 print_largest(10,2,7)
 print_largest(4,4,1)
+#mission 8
+def show_fahrenheit(c):
+    print((c*9/5)+32)
+show_fahrenheit(0)
+show_fahrenheit(100)
+show_fahrenheit(37.5)
