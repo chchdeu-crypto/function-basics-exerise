@@ -18,7 +18,7 @@ greet_with_titel(name="chaim")
 greet_with_titel(name="chaim",titel="commander")
 #mission 5
 def agent_detalis(active,name,level):
-    print("name: ", name , "level: " ,level , "active: ", active)
+    print(f"name: {name} \nlevel:  {level}\nactive:  {active}")
 agent_detalis(level=5,name="agent x",active=True )    
 #mission 6
 def multiply(a,b=2):
@@ -50,3 +50,13 @@ def check_even(n):
         print(n,"is odd")
 check_even(4)
 check_even(7)
+#mission 10
+def summarize(items):
+    total_sum=sum(items)
+    smallest=min(items)
+    largest=max(items)
+    print(total_sum)
+    print(smallest)
+    print(largest)
+
+summarize(items=[4,9,2,10,3])
