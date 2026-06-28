@@ -25,3 +25,14 @@ def multiply(a,b=2):
     print(a*b)
 multiply(5)
 multiply(5,5)
+#mission 7
+def print_largest(a,b,c):
+    if a>=b and a>=c:
+        print(a)
+    elif b>=a and b>=c:
+        print(b)
+    else:
+        print(c)
+print_largest(3,8,5)
+print_largest(10,2,7)
+print_largest(4,4,1)
