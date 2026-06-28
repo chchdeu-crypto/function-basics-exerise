@@ -66,3 +66,8 @@ def shoe_all(*args):
     for arg in args:
         print(arg)
 shoe_all("radio","map","flashlight")
+#mission 2
+def show_profile(**kwargs):
+    print(kwargs)
+show_profile(name="agent x",level=7,active=True)
+
